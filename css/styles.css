@@ -1,0 +1,174 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  /*short hand for 0 auto 0 auto*/
+  padding-top: 100px;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+.logo {
+  float: left;
+  margin-right: 30px
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #EAF6F6;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #edf7fa;
+  padding: 20px;
+
+}
+.middle-container {
+  margin: 100px 0;
+}
+.motto {
+  color: #32afa9;
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+  clear: left;
+}
+
+.yh {
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  margin: 0;
+}
+
+.dp {
+  border-radius: 100px;
+}
+
+.comp {
+  border-radius: 150px;
+  float: right;
+
+}
+
+.vid {
+  height: 200px;
+  width: 200px;
+}
+
+.dp {
+  height: 200px;
+  width: 200px;
+}
+
+.pr {
+  font-weight: normal;
+  font-family: 'Tangerine', cursive;
+  font-size: 4rem;
+  margin-top: 0;
+}
+.cr {
+  color: #EAF6F6;
+  margin-top: 50px;
+  font-size: 0.75rem;
+
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.contact-me {
+  margin-top: 15px;
+}
+.top-cloud {
+  padding-top: 50px;
+  position: absolute;
+  right: 300px;
+}
+
+
+
+
+.button {
+  background-color: #66bfbf;
+  border:2px solid;
+  padding: 15px 32px;
+  text-align: center;
+border-radius: 12px;
+  text-decoration: none;
+  display: inline-block;
+  border-color: #12CAD6;
+  font-size: 20px;
+  color: white;
+  font-family: 'Merriweather';
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.footer-link {
+  color: #3282b8;
+  text-decoration: none;
+  margin: 30px 30px 30px 30px;
+  position: relative;
+  top: 30px;
+}
+.bottom-container {
+  background-color: #0FABBC;
+  height: 120px;
+  margin-top: 100px;
+}
